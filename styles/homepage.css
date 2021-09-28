@@ -9,13 +9,13 @@ body {
 
 .nav-belt {
   overflow: hidden;
-  background-color: #e9e9e9;
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(163,185,198) 30%, rgba(178,140,198,1) 70%, rgba(0,0,0,1)  100%);
 }
 
 .nav-belt a {
   float: left;
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   text-decoration: none;
   font-size: 17px;
@@ -33,7 +33,7 @@ body {
 
 .nav-belt .search-container {
   float: left;
-  width: 102rem;
+  width: 85%;
 }
 
 .nav-belt input[type=text] {
@@ -102,11 +102,10 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
-    text-align: center;
 }
 
 img.footer-logo {
-  float: left;
+  float: right;
   margin: 1rem;
   border-radius: 50%;
   border-style: solid;
@@ -115,6 +114,7 @@ img.footer-logo {
 
 #copyright {
   padding-top: 3rem;
+  text-align: right;
 }
 
 .row {margin: 0 -5px;}
@@ -157,6 +157,11 @@ img.footer-logo {
     padding-left: 3.2rem;
 }
 
+.card-text a:visited, a:link {
+  color: white;
+  text-decoration: none;
+}
+
 .card-text p {
     text-align: right;
     padding-right: 3.2rem;
@@ -181,12 +186,17 @@ img.footer-logo {
 }
 
 .label {   
-    width: 50%;
+    width: 33%;
 } 
 
 #recommended {
     float: left;
     padding-left: 1rem;
+}
+
+#info {
+  float: left;
+  padding: 0.5rem 0 0 10rem;
 }
 
 #filter {

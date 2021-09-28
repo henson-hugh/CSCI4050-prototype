@@ -106,7 +106,7 @@ body {
 }
 
 img.footer-logo {
-  float: left;
+  float: right;
   margin: 1rem;
   border-radius: 50%;
   border-style: solid;
@@ -115,6 +115,7 @@ img.footer-logo {
 
 #copyright {
   padding-top: 3rem;
+  text-align: right;
 }
 
 .trailer {
