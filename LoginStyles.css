@@ -12,7 +12,7 @@ form {
 }
 
 body{
-    background: linear-gradient(90deg, rgba(94,132,138,1) 0%, rgba(178,140,198,1) 35%, rgba(94,132,138,1) 100%);
+    background: linear-gradient(90deg, rgba(178,140,198,1) 0%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 90%, rgba(163,185,198) 100%);
 }
 
 input {
