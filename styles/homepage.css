@@ -3,6 +3,7 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(90deg, rgba(178,140,198,1) 0%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 90%, rgba(94,132,138,1) 100%);
 }
 
 .nav-belt {
@@ -93,14 +94,12 @@ body {
 
 .row {margin: 0 -5px;}
 
-/* Clear floats after the columns */
 .movie-container:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* Style the counter cards */
 .movie-card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
