@@ -51,6 +51,16 @@ img {
     margin-left: 1rem;
     height: 3rem;
     width: 30rem;
+    margin-bottom: 1rem;
+}
+
+.left input[type="checkbox"] {
+    width: 1rem;
+    height: 1rem;
+}
+
+#emailLabel {
+    padding: 0;
 }
 
 .promotion {

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Pigeon Theatres</title>
+        <link rel="icon" href="images/sample-logo.jpg" type="image/x-icon" />
+        <link rel="stylesheet" href="Styles/adminManage.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <a class="active" id="nav-logo" href="adminMenu.html" title="Back to Browsing"><img src="images/sample-logo.jpg" alt="logo" height="50px" width="50px"></a>
+        <form action="homepage.html">
+            <h1>Edit Profile</h1>
+            <div class="container">
+                <div class="left profile">
+                    <label><b>Change First Name</b></label><br>
+                    <input type="text" placeholder="Enter first name" name="fName" required /><br>
+                    <label><b>Change Last Name</b></label><br>
+                    <input type="text" placeholder="Enter last name" name="lName" required /><br>
+                    <label><b>Change Password</b></label><br>
+                    <input type="password" placeholder="Enter password" name="password" required /><br>
+                    <label><b>Re-enter password</b></label><br>
+                    <input type="password" placeholder="Re-enter password" name="passwordConfirm" required /><br>
+                    <label><b>Change promotion notifications</b></label><br>
+                    <input type="checkbox" id="email" name="email" value="I would like to receive emails about promotions!">
+                    <label id="emailLabel"><b>I would like to receive emails about promotions!</b></label>
+                    <input type="checkbox" id="noEmail" name="noEmail" value="Cancel email subscription.">
+                    <label id="noEmailLabel"><b>Cancel email subscription.</b></label><br>
+                </div>
+            </div>
+            <div class="bottom">
+                <button class="button save">Save</button>
+                <button class="button remove">Cancel</button> 
+            </div>
+        </form>
+    </body>
+</html>
