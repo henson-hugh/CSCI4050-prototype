@@ -9,13 +9,13 @@ body {
 
 .nav-belt {
   overflow: hidden;
-  background-color: #e9e9e9;
+  background-color: rgb(147,141,147);
 }
 
 .nav-belt a {
   float: left;
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   text-decoration: none;
   font-size: 17px;
@@ -98,11 +98,11 @@ body {
 }
 
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: 5rem;
 }
 
 img.footer-logo {
@@ -120,6 +120,75 @@ img.footer-logo {
 
 .trailer {
     display: block;
-    margin: 3rem auto 0 10rem;
-    width: 50%;
+    margin: 3% auto 0 10%;
+}
+
+.showtimes {
+  padding: 3% 6%;
+  border: 5px ridge rgb(147,141,147);
+  margin: 3% 0 0 5%;
+}
+
+#get-tickets {
+  background-color: rgba(147,141,147);
+  background-size: 5rem 2rem;
+}
+
+.top-container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.top {
+  float: left;
+}
+
+#description {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  font-size: 18px;
+  margin-bottom: 10rem;
+}
+
+.movie-card {
+  border: 5px ridge rgb(147,141,147); 
+  padding: 16px;
+  background-color: black;
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.movie-card img {
+    margin: auto;
+    display: block;
+    border: 5px outset rgba(163,185,198);
+    margin-top: 2rem;
+}
+
+.card-text {
+    padding-left: 3.2rem;
+}
+
+.card-text a:visited, a:link {
+  color: white;
+  text-decoration: none;
+}
+
+.card-text p {
+    text-align: right;
+    padding-right: 3.2rem;
+}
+
+.movie-container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#recommended {
+  padding-left: 1rem;
 }
