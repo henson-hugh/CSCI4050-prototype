@@ -133,6 +133,9 @@ body {
   padding:5px;
   margin-left:38%;
   margin-right:38%;
+  color:black;
+  margin-top: 5%;
+  height: 40%;
 }
 
 .temp{
@@ -142,5 +145,70 @@ body {
 }
 
 .inputNum{
-  width:100%;
+  width:10%;
+}
+
+.price{
+  float:right;
+}
+
+.center{
+  text-align:center;
+}
+
+.confirm {
+  background-color:rgba(199, 15, 55, 0.774);
+  color: white;
+  cursor: pointer;
+  border: none;
+  width: 100%;
+  padding: 10px 20px;
+  margin: 10px 0;
+}
+
+.ticket-img{
+  float:left;
+}
+
+.confirm-menu{
+  background: white;
+  border: 2px solid silver;
+  padding:5px;
+  margin-left:30%;
+  margin-right:30%;
+  color:black;
+  margin-top: 5%;
+  height: 60%;
+}
+
+.confirm-table{
+  text-align:left;
+  width:480px;
+  height:100px;
+  float:right;
+  color:black;
+}
+
+.smaller{
+  font-size: 80%;
+}
+
+.bigger{
+  font-size:120%
+}
+
+.kill{
+  margin-left: 15%;
+  color:white;
+  background-color:red;
+}
+
+.kill-hover{
+  color:black;
+  background-color: crimson;
+}
+
+.ticket-view{
+  padding:2px;
+  border:1px solid black;
 }
