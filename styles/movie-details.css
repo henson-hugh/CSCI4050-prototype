@@ -9,7 +9,7 @@ body {
 
 .nav-belt {
   overflow: hidden;
-  background: rgb(147,141,147);
+  background-color: rgb(147,141,147);
 }
 
 .nav-belt a {
@@ -33,7 +33,7 @@ body {
 
 .nav-belt .search-container {
   float: left;
-  width: 85%;
+  width: 102rem;
 }
 
 .nav-belt input[type=text] {
@@ -118,24 +118,39 @@ img.footer-logo {
   text-align: right;
 }
 
-.row {margin: 0 -5px;}
+.trailer {
+    display: block;
+    margin: 3% auto 0 10%;
+}
 
-.movie-container:after {
+.showtimes {
+  padding: 3% 6%;
+  border: 5px ridge rgb(147,141,147);
+  margin: 3% 0 0 5%;
+}
+
+#get-tickets {
+  background-color: rgba(147,141,147);
+  background-size: 5rem 2rem;
+}
+
+.top-container:after {
   content: "";
   display: table;
   clear: both;
 }
 
-#genre-label {
-  margin-top: 10rem;
+.top {
+  float: left;
 }
 
-.genre {
-  padding-left: 1rem;
-}
-
-#mystery {
-  margin-top: 8rem;
+#description {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  font-size: 18px;
+  margin-bottom: 10rem;
 }
 
 .movie-card {
@@ -168,44 +183,12 @@ img.footer-logo {
     padding-right: 3.2rem;
 }
 
-.title {
-    text-align: center;
-    margin-bottom: 3rem;
+.movie-container:after {
+  content: "";
+  display: table;
+  clear: both;
 }
-
-.title-logo {
-    margin: 1rem;
-    border-radius: 50%;
-    border-style: solid;
-    border-color: rgba(178,140,198,1) rgba(163,185,198);
-}
-
-.label-container:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.label {   
-    width: 33%;
-} 
 
 #recommended {
-    float: left;
-    padding-left: 1rem;
-}
-
-#info {
-  float: left;
-  padding: 0.5rem 0 0 10rem;
-}
-
-#filter {
-    float: right;
-    text-align: right;
-    padding-right: 0.5rem;
-}
-
-#filter a {
-  color: white;
+  padding-left: 1rem;
 }
